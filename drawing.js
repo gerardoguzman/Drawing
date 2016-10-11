@@ -30,18 +30,28 @@ canvas.fillRect(500,600,200,50);
 //tire
 canvas.beginPath();
 canvas.fillStyle = "black";
-canvas.arc(100,500,70,0,2*Math.PI,true);
+canvas.arc(200,500,70,0,2*Math.PI,true);
 canvas.fill();
 
 canvas.beginPath();
 canvas.fillStyle = "black";
-canvas.arc(530,500,70,0,2*Math.PI,true);
+canvas.arc(580,500,70,0,2*Math.PI,true);
 canvas.fill();
 
 //body
-canvas.fillStyle = "red";
+canvas.fillStyle = "grey";
 canvas.fillRect(0,290,1000,150);
 
 //top of the car
-canvas.fillStyle = "red";
+canvas.fillStyle = "grey";
 canvas.fillRect(0,70,750,220);
+
+//window
+canvas.fillStyle = "aquamarine";
+canvas.fillRect(500,100,200,150);
+
+//light
+canvas.beginPath();
+canvas.fillStyle = "gold";
+canvas.arc(760,360,30,0,2*Math.PI,true);
+canvas.fill();
